@@ -3,6 +3,8 @@
 
 ## Introduction
 
+Project inspired by Kaggle competition: https://www.kaggle.com/competitions/autoam-car-price-prediction/overview 
+
 ### Objective
 
 The goal of this project is to develop an AI model capable of predicting used car prices based on key influencing factors. Pricing used cars accurately is a complex challenge due to varying attributes such as make, model, year, mileage, condition, and location. Our approach involves training a model on Armenian used car data and evaluating its adaptability for the Canadian market.
