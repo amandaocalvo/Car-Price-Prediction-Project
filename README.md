@@ -57,13 +57,13 @@ The wheel column had only one unique value (left), providing no variance, so it 
 
 ## AI Model Selection
 
-The **Random Forest** model will be used to address the problem, and we will implement it using Python. This model is a popular choice for regression problems like used car price prediction because it has several key advantages, such as:
+The **Random Forest** model will be used to address the problem, and I will implement it using Python. This model is a popular choice for regression problems like used car price prediction because it has several key advantages, such as:
 
 - **Capturing Complex Relationships**: Used car pricing is influenced by many factors with non-linear relationships. The Random Forest model can combine multiple decision trees, helping to capture these complex, non-linear interactions without requiring extensive feature engineering.
 - **Handling Noise and Outliers**: Random Forests average the predictions of many trees, making them less sensitive to noise and outliers compared to single decision trees. This is particularly beneficial when dealing with real-world datasets.
 - **Reducing Overfitting**: This approach helps reduce overfitting by averaging the results of many trees, each trained on different subsets of the data. This is especially important when adapting the model to different markets (e.g., from Armenia to Canada).
 - **Feature Importance**: Random Forests provide insights into feature importance, helping us understand which variables most influence car prices.
-- **Minimal Data Preprocessing**: Random Forests are less affected by the scale or distribution of features, meaning we do not need to perform normalization or transformation, unlike with some other algorithms.
+- **Minimal Data Preprocessing**: Random Forests are less affected by the scale or distribution of features, meaning I do not need to perform normalization or transformation, unlike with some other algorithms.
 
 ## AI Model Training and Validation
 
@@ -93,7 +93,7 @@ This configuration provided better accuracy with reduced overfitting.
 
 ## AI Model Performance
 
-To assess the effectiveness of our model, we used two key performance metrics:
+To assess the effectiveness of our model, I used two key performance metrics:
 
 ### Mean Absolute Error (MAE)
 
@@ -113,7 +113,7 @@ The results are shown below. Considering that our target value has a mean of 15,
 
 ## Feature Selection
 
-One of the advantages of using the Random Forest model is that it allows for feature importance selection. We analyzed the most important features for our final model and selected the top 20 that had the greatest impact. We tested the model with fewer features, but the results would not be better.
+One of the advantages of using the Random Forest model is that it allows for feature importance selection. I analyzed the most important features for our final model and selected the top 20 that had the greatest impact. I tested the model with fewer features, but the results would not be better.
 
 ### Top Features:
 - year
@@ -145,7 +145,7 @@ The poor performance in the testing dataset also shows that the model fails to f
 
 ## Key Insights
 
-To better answer the business question, we performed the SHAP (SHapley Additive exPlanations) plot, which is a powerful visualization that helps explain the output of the model by showing the contribution of each feature to the final prediction.
+To better answer the business question, I performed the SHAP (SHapley Additive exPlanations) plot, which is a powerful visualization that helps explain the output of the model by showing the contribution of each feature to the final prediction.
 
 From our analysis, it is evident that:
 - Newer cars increase the predicted price.
@@ -172,7 +172,7 @@ Incorporating these variables could enhance the predictive accuracy of the model
 
 ## Recommendations
 
-To make the car price prediction model more scalable and accurate, we recommend the following improvements:
+To make the car price prediction model more scalable and accurate, I recommend the following improvements:
 
 ### Enhancing Data Collection
 - Expand the feature set by incorporating additional relevant attributes such as transmission type, technology features, fuel economy ratings, and accident records.
