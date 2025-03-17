@@ -4,6 +4,7 @@
 ## Introduction
 
 Project inspired by Kaggle competition: https://www.kaggle.com/competitions/autoam-car-price-prediction/overview 
+Check .ipynb files to see the code and charts
 
 ### Objective
 
